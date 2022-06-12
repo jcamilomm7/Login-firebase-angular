@@ -64,5 +64,5 @@ export class RegistrarUsuarioComponent implements OnInit {
         'Verificar correo');
         this.router.navigate(['/app-login']);
       });
-  }
+  } 
 }

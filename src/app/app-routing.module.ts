@@ -13,7 +13,7 @@ const routes: Routes = [
   { path: 'app-recuperar-password', component: RecuperarPasswordComponent },
   { path: 'app-registrar-usuario', component: RegistrarUsuarioComponent },
   { path: 'app-verificar-correo', component: VerificarCorreoComponent },
-  { path: '**', redirectTo: 'app-dashboard', pathMatch: 'full' },
+  { path: '**', redirectTo: '/app-dashboard', pathMatch: 'full' },
 ];
 
 @NgModule({
